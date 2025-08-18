@@ -47,8 +47,14 @@ export const Projects: React.FC = () => {
         {/* Horizontal scroll container */}
         <div className="flex space-x-6 overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-gray-400 dark:scrollbar-thumb-gray-600">
           {projects.map((project, index) => (
-            <div key={project.title} className="min-w-[300px] flex-shrink-0">
-              <ProjectCard {...project} delay={index * 100} />
+            <div
+              key={project.title}
+              className="min-w-[300px] max-w-[350px] flex-shrink-0 flex"
+            >
+              {/* Force equal height cards */}
+              <div className="w-full h-full flex flex-col justify-between bg-white dark:bg-gray-900 shadow-lg rounded-2xl p-6">
+                <ProjectCard {...project} delay={index * 100} />
+              </div>
             </div>
           ))}
         </div>
