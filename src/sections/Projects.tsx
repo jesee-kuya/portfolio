@@ -23,11 +23,11 @@ const projects = [
   },
   {
     title: 'Vintage',
-    description: 'a comprehensive entertainment discovery platform where users can search for movies and TV shows, view detailed information, manage personal watchlists, and discover trending content ',
-    techStack: 'TypeScript, Css, JavaScript, React, Next.js',
+    description: 'a comprehensive entertainment discovery platform where users can search for movies and TV shows, view detailed information, manage personal watchlists, and discover trending content',
+    techStack: ['TypeScript, Css, JavaScript, React, Next.js'],
     githubUrl: 'https://github.com/jesee-kuya/vintage',
     demoUrl: 'https://vintagereview.netlify.app/'
-  }
+  },
 ];
 
 export const Projects: React.FC = () => {
