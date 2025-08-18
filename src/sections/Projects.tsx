@@ -15,30 +15,11 @@ const projects = [
     githubUrl: 'https://github.com/jesee-kuya/LightGBM',
   },
   {
-    title: 'Real-time Analytics Platform',
-    description: 'High-performance analytics platform processing millions of events per second with real-time dashboards and alerts.',
-    techStack: ['Rust', 'Apache Kafka', 'ClickHouse', 'Vue.js', 'Redis'],
-    githubUrl: 'https://github.com/username/analytics-platform'
-  },
-  {
-    title: 'Mobile Fitness Tracker',
-    description: 'Cross-platform mobile app for tracking workouts, nutrition, and health metrics with AI-powered recommendations.',
-    techStack: ['Flutter', 'Dart', 'Firebase', 'TensorFlow Lite'],
-    githubUrl: 'https://github.com/username/fitness-tracker',
-    demoUrl: 'https://play.google.com/store/apps/fitness-tracker'
-  },
-  {
-    title: 'Microservices E-commerce',
-    description: 'Scalable e-commerce platform built with microservices architecture, featuring payment processing and inventory management.',
-    techStack: ['Node.js', 'Docker', 'MongoDB', 'RabbitMQ', 'Stripe API'],
-    githubUrl: 'https://github.com/username/ecommerce-microservices'
-  },
-  {
-    title: 'Blockchain Voting System',
+    title: 'Hakikaride',
     description: 'Secure and transparent voting system built on blockchain technology with cryptographic verification.',
-    techStack: ['Solidity', 'Web3.js', 'Ethereum', 'React', 'IPFS'],
-    githubUrl: 'https://github.com/username/blockchain-voting',
-    demoUrl: 'https://voting-dapp.netlify.app'
+    techStack: ['Html', 'css', 'Javascript', 'Go'],
+    githubUrl: 'https://github.com/jesee-kuya/transport-system',
+    demoUrl: 'https://hakikaride.onrender.com/'
   }
 ];
 
