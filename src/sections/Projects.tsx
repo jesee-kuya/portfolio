@@ -16,7 +16,7 @@ const projects = [
   },
   {
     title: 'Hakikaride',
-    description: 'Secure and transparent voting system built on blockchain technology with cryptographic verification.',
+    description: 'Secure and transparent tracking system.',
     techStack: ['Html', 'css', 'Javascript', 'Go'],
     githubUrl: 'https://github.com/jesee-kuya/transport-system',
     demoUrl: 'https://hakikaride.onrender.com/'
