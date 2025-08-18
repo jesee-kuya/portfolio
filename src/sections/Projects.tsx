@@ -20,6 +20,13 @@ const projects = [
     techStack: ['Html', 'css', 'Javascript', 'Go'],
     githubUrl: 'https://github.com/jesee-kuya/transport-system',
     demoUrl: 'https://hakikaride.onrender.com/'
+  },
+  {
+    title: 'Vintage',
+    description: 'a comprehensive entertainment discovery platform where users can search for movies and TV shows, view detailed information, manage personal watchlists, and discover trending content ',
+    techStack: 'TypeScript, Css, JavaScript, React, Next.js',
+    githubUrl: 'https://github.com/jesee-kuya/vintage',
+    demoUrl: 'https://vintagereview.netlify.app/'
   }
 ];
 
