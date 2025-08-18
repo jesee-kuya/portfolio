@@ -1,1 +1,0 @@
-https://jeseekuya.netlify.app/
